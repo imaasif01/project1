@@ -1,0 +1,164 @@
+.wrapper{
+    background: #fff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 20px;
+}    
+
+.wrapper:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    background-color: lightsteelblue;
+}
+
+
+nav{
+    background: lightskyblue;
+    border-radius: 20px;
+    
+}    
+
+nav ul{
+    list-style-type: none;
+    padding: 5px;
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+nav a:hover{
+    background-color:#555 ;
+    border-radius: 20px;
+    color: gold;
+}
+
+nav ul li a:hover, 
+nav ul li a.current{
+    background: #555;
+    color: gold;
+    border-radius:20px ;
+}
+
+
+.services:after{
+     content: "";
+     display: block;
+     clear: both;
+}
+
+ 
+
+.service h2, .service p{
+    color: #999;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.service{
+    float: left;
+    background: #eee;
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    height: 140px;
+}
+
+.content{
+    padding: 10px;
+    clear: both;
+    margin-top: 20px;
+}
+.content h2{
+    text-align: center;   
+}
+.content p{
+    line-height: 1.5;
+    padding-left: 7px;
+}
+
+.content p{
+    -webkit-column-count: 3;
+    -webkit-column-gap: 50px;    
+    -webkit-column-rule: 2px solid aquamarine;    
+    text-align: justify;
+}
+.columns h2 {
+    text-align: center;       
+}
+.columns p{
+    line-height: 1.6em;
+}
+
+section, aside{
+    float: left;
+    width: 46%;
+    padding: 1%;
+    margin: 1%;
+    background: #f2f2f2;
+    text-align: justify;
+    padding-left: 7px;
+}
+section, aside:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.aside img:after{
+    content: "";
+    
+    clear: both;
+}
+
+.small-para h5{
+    text-align: center;  
+}
+.small-para{
+    text-align: justify;
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.main-footer{
+    text-align: center;
+    background-color: lightskyblue;
+    color: #eee;
+    font-weight: bolder;
+    padding: 25px;
+    font-size: 1.4em;
+    border-radius: 20px;
+}
+
+@media screen and (min-width:780px){
+
+      nav ul{
+        display:flex;
+      }
+      nav li{
+              flex: 1 1 0;
+          }
+          nav{
+              display: flex;
+              justify-content: space-between;
+          }
+
+      
+}
+
+
+
+
+
+
